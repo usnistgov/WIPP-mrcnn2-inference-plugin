@@ -1,0 +1,37 @@
+{
+  "name": "wipp-mrcnn2-inference-plugin",
+  "version": "1.0",
+  "containerId": "anisbensaid/wipp-mrcnn2-inference-plugin:1.6",
+  "title": "Mask R-CNN for nucleus segmentation",
+  "description": "Framework for the improvement of deep learning-based biological image segmentation.",
+  "author": "Anis Ben Said",
+  "institution": "National Institute of Standards and Technology",
+  "repository": null,
+  "website": null,
+  "citation": null,
+  "inputs": [
+    {
+      "name": "inputImages",
+      "description": "tiffile",
+      "type": "collection",
+      "options": null,
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "description": "tiffile",
+      "type": "collection",
+      "options": null,
+      "required": true
+    }
+  ],
+  "ui": [
+    {
+      "key": "inputs.inputImages",
+      "title": "input images",
+      "hidden": false
+    }
+  ]
+}
